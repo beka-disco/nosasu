@@ -1,0 +1,29 @@
+title:              "노사수마케팅"
+tagline:            "사수없는 마케터의 마케팅 생존일지"
+email:              "hangyel1004@gmail.com"
+description:        "일단 들어간 스타트업에 사수가 없다? 마케팅 초짜의 하루하루 생존일지"
+author:             "임한결"
+baseurl:            "/"
+url:                "https://nosasu.me"
+locale:             "ko_KR"
+thumbnail:          "/img/thumbnail.jpg"
+
+# Social Profiles
+twitter_username:
+instagram_username: data_1wave
+facebook_username:  forest1wave
+linkedin_username:  
+
+# Build settings
+markdown:           kramdown
+permalink:          /:title
+paginate:           5
+paginate_path:      "/posts/page:num/"
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-sitemap
+
+# 블로그 disqus shortname
+disqus:
+  shortname: nosasu-me
